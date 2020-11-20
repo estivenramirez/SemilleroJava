@@ -22,6 +22,14 @@ DemoSpring es un proyecto simple creado con **SpringMVC**.
 -- @RestController
 -- @GetMapping
 
+- Spring data JPA
+-- JpaRepository
+-- DataSource
+-- EntityManager
+-- TransactionManager
+-- Hibernate
+
+
 ### Maven
 - Maven Repository
 - Dependencies
