@@ -12,9 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoRestController {
 		
 	@GetMapping("/")
-	public Map<String, Object> demo() throws InterruptedException {
-		
-		Thread.sleep(300000L);
+	public Map<String, Object> demo() {
 		
 		Map<String, Object> map = new HashMap<>();
 		map.put("name", "Pedro");

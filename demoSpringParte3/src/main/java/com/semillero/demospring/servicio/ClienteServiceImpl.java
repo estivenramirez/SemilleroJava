@@ -5,7 +5,7 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
-import javax.annotation.PostConstruct;
+//import javax.annotation.PostConstruct;
 
 import org.springframework.stereotype.Service;
 
@@ -16,15 +16,15 @@ public class ClienteServiceImpl implements ClienteService{
 
 	private List<Cliente> clientes;
 	
-	@PostConstruct
-	private void init() {
-		clientes = new ArrayList<>();
-		clientes.add(new Cliente(1L, "Pedro", "Correa", "correo1@correo.test", new Date(), "479879864"));
-		clientes.add(new Cliente(2L, "Carlos Pedro", "Correa", "correo1@correo.test", new Date(), "776474747"));
-		clientes.add(new Cliente(3L, "Maria Jose", "Correa", "correo1@correo.test", new Date(), "21545587575"));
-		clientes.add(new Cliente(4L, "Luis", "Correa", "correo1@correo.test", new Date(), "768674575"));
-		clientes.add(new Cliente(5L, "Marcos", "Correa", "correo1@correo.test", new Date(), "778798988789"));
-	}
+//	@PostConstruct
+//	private void init() {
+//		clientes = new ArrayList<>();
+//		clientes.add(new Cliente(1L, "Pedro", "Correa", "correo1@correo.test", new Date(), "479879864"));
+//		clientes.add(new Cliente(2L, "Carlos Pedro", "Correa", "correo1@correo.test", new Date(), "776474747"));
+//		clientes.add(new Cliente(3L, "Maria Jose", "Correa", "correo1@correo.test", new Date(), "21545587575"));
+//		clientes.add(new Cliente(4L, "Luis", "Correa", "correo1@correo.test", new Date(), "768674575"));
+//		clientes.add(new Cliente(5L, "Marcos", "Correa", "correo1@correo.test", new Date(), "778798988789"));
+//	}
 	
 	@Override
 	public Cliente obtenerClientePorId(Long id) {
