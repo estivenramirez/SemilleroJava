@@ -13,28 +13,30 @@ DemoSpring es un proyecto simple creado con **SpringMVC**.
 - Inversion of Control
 - Dependency Inject (DI)
 - Inversion of Control (IoC)
-- Spring
--- @Configuration
--- @Bean
---
+
+###Spring
+- @Configuration
+- @Bean
+- @Component
+- @Service
+
 ### Spring MVC
--- @Controller
--- @RestController
--- @GetMapping
+- @Controller
+- @RestController
+- @GetMapping
 
 ### Spring data JPA
--- JpaRepository
--- DataSource
--- EntityManager
--- TransactionManager
--- Hibernate
+- JpaRepository
+- DataSource
+- EntityManager
+- TransactionManager
+- Hibernate
+- @Repository
 
 ## Maven
 - Maven Repository
 - Dependencies
 - Plugins
-
-
 
 
 ## Fererencias
